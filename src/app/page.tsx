@@ -18,11 +18,7 @@ export default function Home() {
     price: string;
   }
 
-  const [items, setItems] = useState<Item[]>([
-    // { name: 'Coffee', price: 4.95 },
-    // { name: 'Movie', price: 24.95 },
-    // { name: 'candy', price: 7.95 },
-  ]);
+  const [items, setItems] = useState<Item[]>([]);
   const [newItem, setNewItem] = useState<Item>({ name: '', price: '' });
   const [total, setTotal] = useState(0);
 
